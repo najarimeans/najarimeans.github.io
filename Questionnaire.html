@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<title>Questionnarire</title>
+
+</head>
+<body>
+
+<h1>Questionnarire</h1>
+
+<script type="text/javascript">
+
+
+
+
+/*variables declared and prompts the user to enter his or her information*/
+var name = prompt("Please enter your first and last names: ", " ");
+var address = prompt("Please enter your address: ", " ");
+var occupation = prompt("Please enter your occupation: ", " ");
+
+/*Array for informationthe user entered*/
+var info = [name, address, occupation];
+var text = " ";
+
+ /*for loop to display the information to the website*/
+ for (var i = 0; i < info.length; i++) {
+ text += info[i] + "<br>";
+ }
+     document.writeln(text);
+  /* ]]> */
+  </script>
+</body>
+</html>
